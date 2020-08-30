@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout
+    android:stretchColumns="*"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TableRow>
+        <TextView
+            android:gravity="center"
+            android:layout_span="4"
+            android:background="#ff0"
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:background="#0073ff"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"
+            android:id="@+id/textView" />
+
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+        <TextView
+            android:textSize="24sp"
+            android:text="Dòng Cột"/>
+    </TableRow>
+
+</TableLayout>

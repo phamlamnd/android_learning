@@ -118,12 +118,13 @@
         <!--android:layout_height="match_parent"-->
         <!--android:fontFamily="sans-serif" />-->
     <TextView
-        android:layout_weight="1"
-        android:background="#c800ff"
-        android:textColor="#550b16"
-        android:textSize="30sp"
-        android:text="NodeJS"
+        android:id="@+id/textView5"
         android:layout_width="0dp"
         android:layout_height="match_parent"
-        android:fontFamily="sans-serif" />
+        android:layout_weight="1"
+        android:background="#c800ff"
+        android:fontFamily="sans-serif"
+        android:text="NodeJS"
+        android:textColor="#550b16"
+        android:textSize="30sp" />
 </LinearLayout>
