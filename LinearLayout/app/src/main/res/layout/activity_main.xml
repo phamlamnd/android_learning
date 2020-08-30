@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="10"
+    android:orientation="horizontal"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#ff0"
+        android:layout_weight="2"
+        android:layout_width="0dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_gravity="bottom"
+            android:layout_weight="1"
+            android:background="#ff0"
+            android:text="1"
+            android:textSize="40sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#df8d2f"
+            android:text="2"
+            android:textSize="40sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:background="#db87df"
+        android:layout_weight="3"
+        android:layout_width="3dp"
+        android:layout_height="match_parent">
+        
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="" />
+        
+    </LinearLayout>
+
+    <!--2 - 3 - 4 -1-->
+
+    <!--<TextView-->
+        <!--android:layout_weight="2"-->
+        <!--android:background="#ff0"-->
+        <!--android:textColor="#550b16"-->
+        <!--android:textSize="30sp"-->
+        <!--android:text="Android"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fontFamily="sans-serif" />-->
+    <!--<TextView-->
+        <!--android:layout_weight="3"-->
+        <!--android:background="#002fff"-->
+        <!--android:textColor="#550b16"-->
+        <!--android:textSize="30sp"-->
+        <!--android:text="Unity"-->
+        <!--android:layout_width="0dp"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:fontFamily="sans-serif" />-->
+    <TextView
+        android:layout_weight="4"
+        android:background="#1eff00"
+        android:textColor="#550b16"
+        android:textSize="30sp"
+        android:text="PHP"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif" />
+    <TextView
+        android:layout_weight="1"
+        android:background="#c800ff"
+        android:textColor="#550b16"
+        android:textSize="30sp"
+        android:text="NodeJS"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:fontFamily="sans-serif" />
+</LinearLayout>
